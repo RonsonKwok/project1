@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Game of Life</title>
+</head>
+
+<body style="background-color:rgb(21,153,176);">
+    <div id="page-box" class="container">
+        <div id="header" class="row">
+            <div><h1 id="h1">GAME OF LIFE</h1></div>
+        </div>
+
+        <div id="control-box" class="row">
+            <div id="all-button-container" class="col-12">
+                <div><button id="start-game" type="button" class="btn btn-light">CONTINUE GAME</button></div>
+                <div><button id="pause-game" type="button" class="btn btn-light">PAUSE GAME</button></div>
+                <div><button id="reset-game" type="button" class="btn btn-light">RESET GAME</button></div>
+                <div><button id="noColor" type="button"    class="btn btn-light">CHANGE COLOUR</button></div>
+                <div><button id="init-button" type="button"class="btn btn-light">RANDOM INITIAL STATUS</button></div>
+                <div><button id="init-random-patterns" type="button"class="btn btn-light">PLAY WITH DIFFERENT PATTERNS</button></div>
+            </div>
+            <div id="all-slider-container" class="col-12">
+                <div class="speed-control">SPEED CONTROL
+                    <div class="slidecontainer">
+                        <input type="range" min="1" max="30" value="30" class="slider" id="myRange" />
+                    </div>
+                </div>
+                <!-- <div id="penColor">COLOUR <div class="pen-slidecontainer">
+                        <input type="range" min="0" max="255" value="50" class="slider" id="myRange" />
+                    </div> -->
+
+            </div>
+            <div id="all-input-container" class="col-12">
+                <div class="rulesOfSurvival-container">
+                    <form class = "rulesOfSurvival">
+                        <label for = "fname">Rules of Survival</label>
+                        <input type="text" id="survival" name="survival" value="2" />
+                    </form>
+                </div>
+
+                <div class="rulesOfReproduction-container">
+                    <form class = "rulesOfReproduction">
+                        <label for = "lname">Rules of Reproduction</label>
+                        <input type="text" id="reproduction" name="reproduction" value="3" />
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div>
+                <div id='canvas'>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
+        <script src="index.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
