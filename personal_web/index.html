@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ronson Kwok - Personal Page</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Ronson Kwok - Personal Page" name="keywords">
+    <meta content="Ronson Kwok - Personal Page" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand d-block d-lg-none">
+            <h1 class="font-secondary text-white mb-n2">Ronson Kwok</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ml-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#experience" class="nav-item nav-link">Experience</a>
+                <a href="#gallery" class="nav-item nav-link">Gallery</a>
+            </div>
+            <a href="index.html" class="navbar-brand mx-5 d-none d-lg-block">
+                <h1 class="font-secondary text-white mb-n2">Ronson Kwok</h1>
+            </a>
+            <div class="navbar-nav mr-auto py-0">
+                <a href="#hobbies" class="nav-item nav-link">Hobbies</a>
+                <a href="#activities" class="nav-item nav-link">Activities</a>
+                <a href="#enquiry" class="nav-item nav-link">Enquiry</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5 pb-5" id="home">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item position-relative active" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/wallpaper-ronson.jpg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Ronson Kwok</h1>
+                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
+                                <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px;">Personal Page</h3>
+                            </div>
+                            <button type="button" class="btn-play mx-auto" data-toggle="modal"
+                                data-src="https://www.youtube.com/embed/g9vFqr48kl4" data-target="#videoModal">
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item position-relative" style="height: 100vh; min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/gol.jpg" style="object-fit: cover;">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <div class="p-3" style="max-width: 900px;">
+                            <h1 class="display-1 font-secondary text-white mt-n3 mb-md-4">Game of Life</h1>
+                            <div class="d-inline-block border-top border-bottom border-light py-3 px-4">
+                                <h3 class="text-uppercase font-weight-normal text-white m-0" style="letter-spacing: 2px;">Game On</h3>
+                            </div>
+                            <p>
+                            <p><a class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4" href="file:///C:/Users/rk686/OneDrive/%E6%A1%8C%E9%9D%A2/Tecky%20Class%20Materials/Tecky%20Project%20-%201/gfl.html#">Let's Play!</a></p>
+
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev justify-content-start" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-primary px-0" style="width: 68px; height: 68px;">
+                    <span class="carousel-control-prev-icon mt-3"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next justify-content-end" href="#header-carousel" data-slide="next">
+                <div class="btn btn-primary px-0" style="width: 68px; height: 68px;">
+                    <span class="carousel-control-next-icon mt-3"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">About</h6>
+                <h1 class="font-secondary display-4">Myself</h1>
+                
+            </div>
+            <div class="row m-0 mb-4 mb-md-0 pb-2 pb-md-0">
+                <div class="col-md-6 p-0 text-center text-md-right">
+                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
+                        <h3 class="mb-3">Profile</h3>
+                        <h3 class="font-secondary font-weight-normal text-muted mb-3"><i class="fa fa-male text-primary pr-3"></i>Kwok Long Sang Ronson</h3>
+                        <p>Founder, Owner & Managing Director of Laision 
+                        <p>Over 15-year working experiences in different industries
+                        <br>Les Roches International School of Hotel Management Graduates (BA Degree) 
+
+                        <div class="position-relative">
+                            <a class="btn btn-outline-primary btn-square mr-1" href="https://twitter.com/ronson_kwok"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary btn-square mr-1" href="https://www.facebook.com/ronson.kwok"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary btn-square mr-1" href="https://www.linkedin.com/in/ronson-kwok-9381a326"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/ron3on/"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0" style="min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/wallpaper-ronson2.jpg" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-6 p-0" style="min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/wallpaper-ronson1.jpg" style="object-fit: cover;">
+                </div>
+                <div class="col-md-6 p-0 text-center text-md-left">
+                    <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-5">
+                        <h3 class="mb-3">Message</h3>
+                        <p>Hi everyone! </p>
+                        <p>Thanks for reading my page. My name is Ronson and I was born and raised in Hong Kong. Recently, I am looking for different opportunities and would like to push my boundaries for a new era of life.</p>
+                        <p>For some reason, I attended a course in Tecky Academy - The best coding school in Hong Kong, and started my coding life! I have just made up a game called "Game of life" - </p>
+                        <p>Please feel free to play it after reading my page!</p>
+                        <h3 class="font-secondary font-weight-normal text-muted mb-3">Ronson</h3>
+                        <a class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4" href="file:///C:/Users/rk686/OneDrive/%E6%A1%8C%E9%9D%A2/Tecky%20Class%20Materials/Tecky%20Project%20-%201/gfl.html#">Let's Play Game of Life!</a>
+ 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Experience Start -->
+    <div class="container-fluid py-5" id="experience">
+        <div class="container pt-5 pb-3">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Experience</h6>
+                <h1 class="font-secondary display-4">Job Reference</h1>
+                
+            </div>
+            <div class="container timeline position-relative p-0">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <img class="img-fluid mr-md-3" src="img/job1.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
+                            <h4 class="mb-2">Hospitality</h4>
+                            <p class="text-uppercase mb-2">2007-2014</p>
+                            <p class="m-0">Begin my career in hospitality, trained and worked at several luxury hotels in different countries and focus on the most important revenue centers - Front Office and Food & Beverage. Rich knowledge in operating hotel operation system e.g. Opera, Micros, apps to retrieve and update client database to achieve guest satisfaction. Good relationship with colleagues, managers and all departments in order to work as a whole:
+                                <p><br>- Four Seasons Hotel Hong Kong (F&B Trainee)
+                                <br>- The Peninsula Hotel Hong Kong (Chef's Office Trainee)
+                                <br>- Les Roches Switzerland (Stagiaire)
+                                <br>- Le Méridien Hotel Hong Kong (Guest Relation Officer)
+                                <br>- Sheraton Hotel Ningbo (Guest Service Manager)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
+                            <h4 class="mb-2">Property Developers</h4>
+                            <p class="text-uppercase mb-2">2014-2017</p>
+                            <p class="m-0">Gained experiences within two important fields - Sales and Property Management. 
+                                Having procession with rich hospitality experiences together with consistent well performance was shown and recognized by all managers and colleagues. 
+                                Enhanced numerous knowledge and skills by communicating with contractors, engineers and system programmers of creating and maintaining ultra deluxe properties during pre/post-handover status. 
+                                Experienced in dealing with billionaires and celebrities VIPs purchasers and owners.
+                                Performed massive sales training seminar to property agents.</p>
+                                <p><br>- Henderson Land Development Company Limited
+                                    <br>(Assistant Property Officer @ 39 Conduit Road)
+                                    <br>- Swire Properties
+                                    <br> (Property Officer @ Arezzo)
+                                    <br>- Wheelock Properties Hong Kong Limited 
+                                    <br>(Guest Service Officer - Lux Team Sales)
+                                    <p>Projects Highlight - 
+                                        <br>8 Mount Nicholson,  One Homantin, The Parkside etc. </p>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <img class="img-fluid ml-md-3" src="img/job2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <img class="img-fluid mr-md-3" src="img/job3.jpg" alt="">
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 ml-md-3">
+                            <h4 class="mb-2">Manufacturing - Import & Export</h4>
+                            <p class="text-uppercase mb-2">2017 - Current</p>
+                            <p class="m-0">Created a solo start-up company which focus on manufacturing with bags and luggages in China and exporting larges batches of goods especially in UK and Australia. 
+                                Looking forward to expand my business by creating a private label/branding within bags and luggages, also other accessories. 
+                                Currently improving web, mobile, software development, plus marketing skills in order to deploy a perfect branding.</p>
+                                <br>
+                                <p>- Laision (Worldwide) Limited
+                                <br>(Founder, Owner & Managing Director)</p>
+                                <p>Customers Profile: 
+                                    <br>Samsonite, Fujifilm, Aldi, Harvey Norman, Big W, TK Maxx</p>
+                                    
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <div class="h-100 d-flex flex-column justify-content-center bg-secondary p-4 mr-md-3">
+                            <h4 class="mb-2">Family Business</h4>
+                            <p class="text-uppercase mb-2">2019 - Current</p>
+                            <p class="m-0">My family business is focused on the interior design and built, also they have a retail shop selling plywoods and other construction materials. I act as a Managing Director to handle all kinds of duties including accounting, revenue, purchasing, human resources and other business development. Personally think a useful POS system and effective data management system should have applied in order to have a smooth operation under manpower shortage and cost control. Therefore, currently I am looking for a effective management system to manage it. </p>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <img class="img-fluid ml-md-3" src="img/job4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Experience End -->
+
+
+    <!-- Gallery Start -->
+    <div class="container-fluid bg-gallery" id="gallery" style="padding: 120px 0; margin: 90px 0;">
+        <div class="section-title position-relative text-center" style="margin-bottom: 120px;">
+            <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Gallery</h6>
+            <h1 class="font-secondary display-4 text-white">Discover Ronson</h1>
+           
+        </div>
+        <div class="owl-carousel gallery-carousel">
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-1.jpg" alt="">
+                <a href="img/gallery-1.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-2.jpg" alt="">
+                <a href="img/gallery-2.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-3.jpg" alt="">
+                <a href="img/gallery-3.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-4.jpg" alt="">
+                <a href="img/gallery-4.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-5.jpg" alt="">
+                <a href="img/gallery-5.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <img class="img-fluid w-100" src="img/gallery-6.jpg" alt="">
+                <a href="img/gallery-6.jpg" data-lightbox="gallery">
+                    <i class="fa fa-2x fa-plus text-white"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Gallery End -->
+
+
+    <!-- Activities Start -->
+    <div class="container-fluid py-5" id="activities">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Activities</h6>
+                <h1 class="font-secondary display-4">Weekly Social Activities</h1>
+                
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <h5 class="font-weight-normal text-muted mb-3 pb-3">Social activities are being held every single week to enhance interpersonal communication and enjoy life. Please feel free to join if you are interested.</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 border-right border-primary">
+                    <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0">
+                        <img class="img-fluid mb-4" src="img/smd.jpg" alt="">
+                        <h4 class="mb-3">Saturday Morning Drive + Breakfast</h4>
+                        <p class="mb-2">Shek O, Hong Kong</p>
+                        <p class="mb-0">07:00AM - 09:00AM</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center text-md-left ml-md-3">
+                        <img class="img-fluid mb-4" src="img/soccor.jpg" alt="">
+                        <h4 class="mb-3">Sunday Soccer</h4>
+                        <p class="mb-2">Wanchai Park, Hong Kong</p>
+                        <p class="mb-0">10:00AM - 11:00AM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Activities End -->
+
+
+    <!-- Hobbies Start -->
+    <div class="container-fluid py-5" id="hobbies">
+        <div class="container pt-5 pb-3">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Hobbies & Interests</h6>
+                <h1 class="font-secondary display-4">Sports & Others</h1>
+                
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4" data-filter=".first">Sports</li>
+                        <li class="btn btn-outline-primary font-weight-bold m-1 py-2 px-4" data-filter=".second">Others</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative mb-2">
+                        <img class="img-fluid w-100" src="img/sport1.jpg" alt="">
+                        <div class="bg-secondary text-center p-4">
+                            <h4 class="mb-3">Soccer</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative mb-2">
+                        <img class="img-fluid w-100" src="img/others1.jpg" alt="">
+                        <div class="bg-secondary text-center p-4">
+                            <h4 class="mb-3">Wine Tasting</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative mb-2">
+                        <img class="img-fluid w-100" src="img/sport2.jpg" alt="">
+                        <div class="bg-secondary text-center p-4">
+                            <h4 class="mb-3">Cycling</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative mb-2">
+                        <img class="img-fluid w-100" src="img/others2.jpg" alt="">
+                        <div class="bg-secondary text-center p-4">
+                            <h4 class="mb-3">Supercars</h4>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative mb-2">
+                        <img class="img-fluid w-100" src="img/sport3.jpg" alt="">
+                        <div class="bg-secondary text-center p-4">
+                            <h4 class="mb-3">Tennis</h4>
+           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative mb-2">
+                        <img class="img-fluid w-100" src="img/others3.jpg" alt="">
+                        <div class="bg-secondary text-center p-4">
+                            <h4 class="mb-3">Photography</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hobbies End -->
+
+
+    <!-- Enquiry Start -->
+    <div class="container-fluid py-5" id="enquiry">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Enquiry</h6>
+                <h1 class="font-secondary display-4">Ask me questions</h1>
+                
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="text-center">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-sm-6">
+                                    <input type="text" class="form-control bg-secondary border-0 py-4 px-3" placeholder="Your Name"/>
+                                </div>
+                                <div class="form-group col-sm-6">
+                                    <input type="email" class="form-control bg-secondary border-0 py-4 px-3" placeholder="Your Email"/>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-sm-6">
+                                    <select class="form-control bg-secondary border-0" style="height: 52px;">
+                                        <option>Related topics</option>
+                                        <option>Background</option>
+                                        <option>Jobs Reference</option>
+                                        <option>Jobs Opportunities</option>
+                                        <option>Investment</option>
+                                        <option>Hobbies</option>
+                                        <option>Others</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-sm-6">
+                                    <select class="form-control bg-secondary border-0" style="height: 52px;">
+                                        <option>Visitor Type</option>
+                                        <option>Employers</option>
+                                        <option>Investors</option>
+                                        <option>Others</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control bg-secondary border-0 py-2 px-3" rows="5" placeholder="Message" required="required"></textarea>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary font-weight-bold py-3 px-5" type="submit" action="mailto:rk6866@hotmail.com">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Enquiry End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white py-5" id="contact" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <div class="section-title position-relative text-center">
+                <h1 class="font-secondary display-3 text-white">Thank You</h1>
+                
+            </div>
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-outline-primary btn-square mr-1" href="https://twitter.com/ronson_kwok"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square mr-1" href="https://www.facebook.com/ronson.kwok"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square mr-1" href="https://www.linkedin.com/in/ronson-kwok-9381a326"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/ron3on/"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="d-flex justify-content-center py-2">
+                <p class="text-white" href="#">rk6866@hotmail.com</p>
+                <span class="px-3">|</span>
+                <p class="text-white" href="#">+852 9888 8588</p>
+            </div>
+          
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
